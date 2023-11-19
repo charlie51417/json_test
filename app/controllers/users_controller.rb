@@ -6,5 +6,6 @@ class UsersController < ApplicationController
       total_pages: users.total_pages,
       current_page: users.current_page,
     }, status: :ok
+    
   end
 end
